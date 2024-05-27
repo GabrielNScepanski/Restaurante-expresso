@@ -7,6 +7,7 @@ restaurantes = [
 ]
 
 def voltar_ao_menu_principal():
+    #docstring
     """
     Interrompe a execução da função atual e retorna ao menu principal.
     Input: Nenhum
@@ -16,6 +17,7 @@ def voltar_ao_menu_principal():
     main()
 
 def mostrar_subtitulo(texto):
+    #docstring
     """
     Limpa o console e exibe um subtítulo.
     
@@ -32,6 +34,7 @@ def mostrar_subtitulo(texto):
     print(linha)
 
 def desligar_app():
+    #docstring
     """
     Finaliza a execução do aplicativo, exibindo uma mensagem de despedida.
     Input: Nenhum
@@ -40,6 +43,7 @@ def desligar_app():
     mostrar_subtitulo("Finalizando o app")
 
 def opcao_invalida():
+    #docstring
     """
     Exibe uma mensagem de erro quando o usuário seleciona uma opção inválida e retorna ao menu principal.
     Input: Nenhum
@@ -49,6 +53,7 @@ def opcao_invalida():
     voltar_ao_menu_principal()
 
 def cadastrar_novo_restaurante():
+    #docstring
     """
     Permite ao usuário cadastrar um novo restaurante no sistema. O restaurante é inicialmente inativo.
     
@@ -67,6 +72,7 @@ def cadastrar_novo_restaurante():
     voltar_ao_menu_principal()
 
 def listar_restaurantes():
+    #docstring
     """
     Lista todos os restaurantes cadastrados no sistema, exibindo o nome, a categoria e o status de cada um.
     
@@ -83,6 +89,7 @@ def listar_restaurantes():
     voltar_ao_menu_principal()
 
 def ativar_restaurante():
+    #docstring
     """
     Permite ao usuário alternar o estado de um restaurante entre ativo e inativo.
     
@@ -108,6 +115,7 @@ def ativar_restaurante():
     voltar_ao_menu_principal()
 
 def nome_app():
+    #docstring
     """
     Exibe o nome do aplicativo no console.
     Input: Nenhum
@@ -119,6 +127,7 @@ def nome_app():
 ''')
 
 def exibir_opcoes():
+    #docstring
     """
     Exibe as opções disponíveis para o usuário no console.
     Input: Nenhum
@@ -130,6 +139,7 @@ def exibir_opcoes():
     print("4 - Sair do programa\n")
 
 def escolher_opcoes():
+    #docstring
     """
     Permite ao usuário escolher uma opção do menu e executa a função correspondente.
     
@@ -156,6 +166,7 @@ def escolher_opcoes():
         opcao_invalida()
 
 def main():
+    #docstring
     """
     Função principal que coordena as operações do programa.
     
